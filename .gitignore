@@ -1,0 +1,12 @@
+# Standard ignores
+.idea
+.DS_Store
+*.sublime-*
+*ide-plugin.xml
+
+# Repo Ignores
+config/*.conf
+log/*.log
+
+!config/test.conf
+!log/get-client-ips.log
